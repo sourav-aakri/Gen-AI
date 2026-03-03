@@ -1,0 +1,367 @@
+🔹 PHASE 1 — LLM Core Foundations (Weeks 1–4)
+Week 1 — LLM Mechanics (Control Level Understanding)
+
+Learn:
+
+Tokens
+
+Context window
+
+Temperature
+
+Top-p
+
+System vs user role
+
+Token pricing basics
+
+Build:
+
+Django/FastAPI API → call OpenAI/Gemini
+
+Log token usage
+
+Add temperature parameter
+
+Goal:
+Control output like backend logic.
+
+Week 2 — Prompt Engineering (Professional Level)
+
+Learn:
+
+Few-shot prompting
+
+Structured output (JSON mode)
+
+Role prompting
+
+Hallucination control
+
+Output validation
+
+Build:
+
+AI summary endpoint
+
+AI structured extraction endpoint
+
+Enforce JSON schema response
+
+Goal:
+Reliable LLM responses.
+
+Week 3 — Embeddings & Vector Databases
+
+Learn:
+
+What embeddings represent
+
+Cosine similarity
+
+Chunking strategies
+
+Why naive chunking fails
+
+Build:
+
+Upload document
+
+Chunk text
+
+Store embeddings (FAISS / Chroma)
+
+Retrieve top-k chunks
+
+Goal:
+Semantic search foundation.
+
+Week 4 — Build Basic RAG System
+
+Combine:
+
+Retrieval
+
+LLM
+
+Context injection
+
+Build:
+
+“Ask your document” chatbot
+
+Streaming response
+
+Response time logging
+
+Goal:
+First real AI system.
+
+🔹 PHASE 2 — Production Engineering (Weeks 5–8)
+
+This is what separates tutorial dev from AI engineer.
+
+Week 5 — Async + Streaming + Background Jobs
+
+Learn:
+
+Async endpoints
+
+Streaming LLM responses
+
+Background tasks (Celery / FastAPI background tasks)
+
+Redis basics
+
+Improve:
+
+Stream chat responses
+
+Cache embeddings
+
+Goal:
+Performance mindset.
+
+Week 6 — Cost Optimization
+
+Learn:
+
+Token counting
+
+Context trimming
+
+Model selection tradeoffs
+
+Embedding reuse
+
+Add:
+
+Cost logging
+
+Token limiter
+
+Fallback smaller model
+
+Goal:
+Production safety.
+
+Week 7 — WhatsApp AI Bot
+
+Learn:
+
+WhatsApp Business API (Twilio or Meta)
+
+Webhooks
+
+Message parsing
+
+Build:
+
+Webhook endpoint
+
+Send message → LLM → reply back
+
+Goal:
+Real-world integration.
+
+Week 8 — Multi-User Chat Architecture
+
+Learn:
+
+Chat session DB schema
+
+History trimming
+
+Context window management
+
+Build:
+
+Chat history storage
+
+Session-based conversation
+
+Context summarization
+
+Goal:
+SaaS-ready chatbot.
+
+🔹 PHASE 3 — Advanced RAG + System Design (Weeks 9–12)
+Week 9 — Retrieval Optimization
+
+Learn:
+
+Hybrid search (keyword + vector)
+
+Metadata filtering
+
+Reranking
+
+Embedding comparison
+
+Improve:
+
+Add metadata filters
+
+Improve accuracy
+
+Week 10 — AI Security & Guardrails
+
+Learn:
+
+Prompt injection attacks
+
+Jailbreak attempts
+
+Moderation APIs
+
+Output filtering
+
+Implement:
+
+Input validation layer
+
+Content moderation
+
+Query limits
+
+Week 11 — Multi-Model Routing
+
+Learn:
+
+Model routing logic
+
+Using smaller model for classification
+
+Bigger model for reasoning
+
+Build:
+
+Smart model selection layer
+
+Goal:
+Architecture maturity.
+
+Week 12 — AI System Design Thinking
+
+Study:
+
+Scaling AI APIs
+
+Horizontal vs vertical scaling
+
+Caching strategies
+
+Queue systems
+
+Rate limiting
+
+Document:
+
+Architecture diagram
+
+Deployment flow
+
+Goal:
+Interview-ready architecture thinking.
+
+🔹 PHASE 4 — Resume-Level Projects (Weeks 13–16)
+Week 13–14 — Enterprise AI Knowledge System
+
+Build:
+
+AI Knowledge Assistant
+
+Features:
+
+Document upload
+
+Role-based access
+
+Chat history
+
+Admin dashboard
+
+Usage analytics
+
+Deploy:
+
+AWS
+
+HTTPS
+
+Logging enabled
+
+Week 15 — AI Analytics Generator
+
+Build:
+
+Admin dashboard
+
+AI-generated summaries
+
+Auto insights from data
+
+Export PDF report
+
+This matches your backend experience.
+
+Week 16 — Production Hardening
+
+Add:
+
+Rate limiting
+
+Cost tracking
+
+Error logging
+
+Retry mechanisms
+
+Monitoring
+
+Deploy properly.
+
+Prepare:
+
+README
+
+Architecture diagram
+
+Demo video
+
+🧠 After 16 Weeks You Will Know
+
+Prompt engineering deeply
+
+RAG architecture
+
+Vector databases
+
+WhatsApp AI bot
+
+Cost optimization
+
+Streaming responses
+
+Production AI deployment
+
+LLM security issues
+
+Model routing strategies
+
+That is real AI Engineer level.
+
+🔥 What You Are NOT Learning (Intentionally)
+
+Deep linear algebra
+
+Training transformers from scratch
+
+Heavy NumPy math
+
+Research-level ML
+
+Model fine-tuning at GPU scale
+
+Those belong to:
+ML Engineer / Research Engineer.
